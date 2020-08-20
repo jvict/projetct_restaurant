@@ -5,6 +5,7 @@
     --color-primary: #012229;
     --color-text-complement: #a9b6ff7a;
     --color-text-in-primary: #ffffffd0;
+    --color-text-base: #e2c07e;
 
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
@@ -13,8 +14,7 @@
     --color-secondary: #04D361;
     --color-secondary-dark: #04BF58;
     --color-title-in-primary: #FFFFFF;
-    --color-text-title: #32264D;
-    --color-text-base: #6A6180;
+    --color-text-title: #32264D;    
     --color-line-in-white: #E6E6F0;
     --color-input-background: #F8F8FC;
     --color-button-text: #FFFFFF;

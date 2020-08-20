@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
 }
-
+/*buttons Customizer*/
 #page-landing #container .buttons-container{
     
     display: flex;
@@ -21,6 +21,17 @@
 
     margin-top: 3.2rem 0;
 }
+.buttons-container a.requests:hover,
+.buttons-container a.reservation:hover,
+.buttons-container a.cooling:hover,
+.buttons-container a.user:hover,
+.buttons-container a.client:hover,
+.buttons-container a.table:hover,
+.buttons-container a.closure:hover{
+    background: var(--color-text-complement);
+    color: var(--color-text-in-primary);
+}
+
 
 #page-landing #container .logo-container{
    margin-top: 5.6rem;
@@ -28,9 +39,10 @@
 }
 
 .logo-container img{
-    height: 12.7rem;
+    height: 20rem;
     display: block;
     margin-top: .4rem;
+    margin-bottom: 1.4rem;
 }
 
 
@@ -57,11 +69,16 @@
 
 }
 
+.logo-container p{
 
-.buttons-container a.pedidos:hover{
-    background: var(--color-text-complement);
-    color: var(--color-text-in-primary);
+    line-height: 2.6rem;
+    color:var(--color-text-base);
+    margin-top: 2.4rem;
+
+    font: 700 2.4rem Archivo;
 }
+
+
 
 
 
