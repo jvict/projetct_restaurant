@@ -11,49 +11,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 /*buttons Customizer*/
 #page-landing #container .buttons-container{
-    
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    position: absolute;
+    top: -105px;
 
-    margin-top: 3.2rem 0;
 }
-.buttons-container a.requests:hover,
-.buttons-container a.reservation:hover,
-.buttons-container a.cooling:hover,
-.buttons-container a.user:hover,
-.buttons-container a.client:hover,
-.buttons-container a.table:hover,
-.buttons-container a.closure:hover{
-    background: var(--color-text-complement);
-    color: var(--color-text-in-primary);
-}
-
-
-#page-landing #container .logo-container{
-   margin-top: 5.6rem;
-   text-align: center;
-}
-
-.logo-container img{
-    height: 20rem;
-    display: block;
-    margin-top: .4rem;
-    margin-bottom: 1.4rem;
-}
-
-
 .buttons-container a{
-    width: 15rem;
-    height: 5rem;
+    width: 13rem;
+    height: 3rem;
 
     border-radius: 0.8rem;
     margin-right: 0.8rem;
-
-    font:556 2.0rem Archivo;
+    padding: 16px;
+    font:500 2.0rem Archivo;
 
     display: flex;
     align-items: center;
@@ -68,14 +46,47 @@
 
 
 }
+.buttons-container a.button-top:hover{
+    background: var(--color-text-complement);
+    color: var(--color-text-in-primary);
+}
 
+/*Logo e nome*/
+#page-landing #container .logo-container{
+   margin-bottom: 8rem;
+    position: relative;
+
+   text-align: center;
+}
+.logo-container img{
+    height: 20rem;
+    display: block;
+    margin-bottom: 1.4rem;
+}
 .logo-container p{
+    
 
     line-height: 2.6rem;
     color:var(--color-text-base);
     margin-top: 2.4rem;
 
     font: 700 2.4rem Archivo;
+}
+
+/*Footer*/
+#page-landing footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom:-100px;
+}
+
+#page-landing footer img{
+    height: 7rem;
+    display: block;
+    margin-bottom: 1.4rem;
 }
 
 
